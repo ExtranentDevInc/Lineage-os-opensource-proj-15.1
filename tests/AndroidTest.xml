@@ -23,5 +23,5 @@
     <test class="com.android.tradefed.testtype.InstrumentationTest" >
         <option name="package" value="com.android.providers.downloads.tests" />
         <option name="runner" value="android.test.InstrumentationTestRunner" />
-    </test>
+    </test> //done
 </configuration>
