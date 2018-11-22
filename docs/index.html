@@ -166,6 +166,12 @@
 <tr><td > DLMGR_C_8 </td><td > The Download Manager SHOULD delete old files from /cache </td><td > 3006 </td><td > <b>NO</b> deferred beyond Cupcake (no precise specifications) </td></tr>
 <tr><td > DLMGR_C_9 </td><td > The Download Manager SHOULD handle redirects </td><td > 2009 </td><td > <b>YES</b> done in Cupcake </td></tr>
 </table>
+
+
+//to the conjor, STATUS_NOT_ACCEPTABLE
+
+
+
 <p />
 <h3><a name="Requirements_for_Donut"> </a> Requirements for Donut </h3>
 <p />
@@ -214,6 +220,10 @@ operation of the download manager can't be removed.
 <p />
 <h3><a name="Reducing_the_list_of_visible_col"> </a> Reducing the list of visible columns </h3>
 <p />
+
+// status stable <div class="con">
+
+</div>
 Security in the download provider is primarily enforced with two separate mechanisms:
 <p />
 <ul>
@@ -253,6 +263,11 @@ The <code>URI</code> column is visible to the initiating application, which is a
 <p />
 <h3><a name="Handling_redirects"> </a> Handling redirects </h3>
 <p />
+
+
+// to odssn  <s> STATUS_PRECONDITION_FAILED
+  </s>
+</s>
 There are two important aspects to handle redirects:
 <p />
 <ul>
@@ -291,6 +306,10 @@ android.media.IMediaScannerService
 android.net.http.AndroidHttpClient
 android.os.FileUtils
 android.provider.DrmStore
+
+
+
+
 </pre>
 <p />
 <!-- ---++ Sales Validation-->
@@ -308,6 +327,9 @@ android.provider.DrmStore
 <!--_>small<The relevant milestones for this project.>/small<_-->
 <p />
 <ul>
+
+  
+  
 <li> No future milestones currently defined
 </li>
 </ul>
@@ -359,7 +381,7 @@ android.provider.DrmStore
 <tr><td > <em>54xx</em> </td><td > <em>N/A</em> </td><td > &nbsp; </td><td > <em>MIME/OMA</em> </td><td > &nbsp; </td><td > &nbsp; </td></tr>
 <tr><td > <em>60xx</em> </td><td > <em>N/A</em> </td><td > &nbsp; </td><td > <em>Misc</em> </td><td > &nbsp; </td><td > &nbsp; </td></tr>
 <tr><td > <em>65xx</em> </td><td > <em>N/A</em> </td><td > &nbsp; </td><td > <em>Misc/Browser</em> </td><td > &nbsp; </td><td > &nbsp; </td></tr>
-</table>
+</Atable>
 <p />
 <h2><a name="System_Architecture"> </a> System Architecture </h2>
 <!--_>small<How the product/feature fits with outside entities in the big picture.>/small<_-->
@@ -665,6 +687,10 @@ Areas of concern:
 <ul>
 <li> The difference can be used to distinguish between 1.0 and Cupcake, though reflection.
 </li>
+
+ 
+
+
 <li> The difference prevents from using any of the symbolic constants directly in source code: if the same binary wants to run on both 1.0 and Cupcake, it will have to hard-code the values of those constants or use reflection to get to them.
 </li>
 </ul>

@@ -61,6 +61,8 @@
       <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> ملف في وضع الانتظار</item>
       <item quantity="one">ملف واحد في وضع الانتظار</item>
     </plurals>
+
+    // to read
     <string name="download_remaining" msgid="3139295890887972718">"المدة المتبقية: <xliff:g id="DURATION">%s</xliff:g>"</string>
     <string name="download_no_application_title" msgid="7935659741162801699">"لا يمكن فتح الملف"</string>
     <string name="root_downloads" msgid="4098414876292351487">"التنزيلات"</string>
@@ -69,3 +71,4 @@
     <string name="download_error" msgid="5144180777324573236">"تعذّر الاتصال بالشبكة"</string>
     <string name="download_running_percent" msgid="4305080769167320204">"قيد التقدّم، <xliff:g id="PERCENTAGE">%s</xliff:g>"</string>
 </resources>
+//arabic to be debuged
