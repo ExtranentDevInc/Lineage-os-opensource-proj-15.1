@@ -16,3 +16,4 @@ include $(BUILD_PACKAGE)
 
 # build UI + tests
 include $(call all-makefiles-under,$(LOCAL_PATH))
+#test only(pre defined)
