@@ -14,6 +14,19 @@
 #
 #done
 
+
+# off value preset for the code and please set the default value of the cursor and the notification bar also presets
+#add some values of the preset conditions to the log and even make sure that there are nomore additional logs for conflicts.
+# there can be conflict caused by multiple sum of logs cluttering the cache and even clutters os making snapdragon and exynox clutter it
+#please make sure that the default values are set to null and even make the default recover twrp for makin ease of acess.
+#twrp also helps in making  the best of flashing os in the recovery functions.
+#twrp makes it easy to flash the recovery file of any other recovery and multiple images and also supports mtp enable and disable as needed
+# make sure to add masgisk module, flash latest magisk file from the recovery and make it work like a charm
+#this is a additiomal values and also helps to add multiple clutter on the subttle value of each and every clutter caused by waste dump files
+
+
+
+
 # If you don't need to do a full clean build but would like to touch
 # a file or delete some intermediate files, add a clean step to the end
 # of the list.  These steps will only be run once, if they haven't been
